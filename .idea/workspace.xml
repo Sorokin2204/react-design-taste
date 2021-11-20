@@ -1,29 +1,99 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="0cd7907a-29ae-4f9e-9ba3-fca1d12b979d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/controllers/user-controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/controllers/user-controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/dtos/user-dto.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/dtos/user-dto.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/models/user-model.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/models/user-model.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/service/mail-service.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/service/mail-service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/service/token-service.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/service/token-service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/service/user-service.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/service/user-service.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript JSX File" />
+        <option value="TypeScript File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/client" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
   </component>
   <component name="ProjectId" id="20g8doXd7oLq1KG1RBkMS7KYCOb" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.detected.package.stylelint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.path.for.package.stylelint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="node.js.selected.package.stylelint" value="" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="prettier.files.pattern" value="{**/*,*}.{js,ts,jsx,tsx,scss,css}" />
+    <property name="prettierjs.PrettierConfiguration.NodeInterpreter" value="$PROJECT_DIR$/../../../../../Program Files/nodejs/node" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\niga_\AppData\Roaming\npm\node_modules\prettier" />
+    <property name="run.prettier.on.save" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="ts.external.directory.path" value="C:\Users\niga_\Desktop\web-projects\react-design-taste\client\node_modules\typescript\lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\niga_\Desktop\web-projects\react-design-taste\client\src\saga" />
+      <recent name="C:\Users\niga_\Desktop\web-projects\react-design-taste\client\src\store" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -39,20 +109,68 @@
       <workItem from="1636455254104" duration="47000" />
       <workItem from="1636485993856" duration="184000" />
       <workItem from="1636486202764" duration="317000" />
+      <workItem from="1636808364011" duration="803000" />
+      <workItem from="1636809245479" duration="266000" />
+      <workItem from="1636809560891" duration="933000" />
+      <workItem from="1636810555599" duration="560000" />
+      <workItem from="1636811216757" duration="1830000" />
+      <workItem from="1636815122557" duration="812000" />
+      <workItem from="1636815987978" duration="634000" />
+      <workItem from="1636816676237" duration="1670000" />
+      <workItem from="1636824047322" duration="5595000" />
+      <workItem from="1636881040257" duration="27406000" />
+      <workItem from="1637068886742" duration="1656000" />
+      <workItem from="1637070746723" duration="7606000" />
+      <workItem from="1637078834687" duration="847000" />
+      <workItem from="1637079794106" duration="461000" />
+      <workItem from="1637080279040" duration="45686000" />
+      <workItem from="1637310481602" duration="19612000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1053" y="378" key="SettingsEditor" timestamp="1636486434612">
+    <state x="307" y="201" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1636824528675">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state x="1053" y="378" key="SettingsEditor/0.0.3440.1400/-1920.0.1536.824@0.0.3440.1400" timestamp="1636486434612" />
-    <state x="1238" y="310" width="627" height="852" key="find.popup" timestamp="1636455297380">
+    <state x="307" y="201" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.3440.1400/3440.0.1920.1040@0.0.3440.1400" timestamp="1636824528675" />
+    <state x="459" y="325" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1637063149499">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="459" y="325" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.3440.1400@0.0.3440.1400" timestamp="1637063149499" />
+    <state x="697" y="324" key="FileChooserDialogImpl" timestamp="1636824580852">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="697" y="324" key="FileChooserDialogImpl/0.0.3440.1400/3440.0.1920.1040@0.0.3440.1400" timestamp="1636824580852" />
+    <state x="277" y="138" width="2239" height="1262" key="SettingsEditor" timestamp="1637241532099">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="277" y="138" width="1366" height="1058" key="SettingsEditor/0.0.3440.1400/-1920.0.1536.824@0.0.3440.1400" timestamp="1637241532099" />
+    <state x="282" y="160" key="SettingsEditor/0.0.3440.1400/3440.0.1920.1040@0.0.3440.1400" timestamp="1636825118577" />
+    <state x="639" y="56" width="2239" height="1262" key="SettingsEditor/0.0.3440.1400@0.0.3440.1400" timestamp="1637075639119" />
+    <state x="1238" y="310" width="832" height="854" key="find.popup" timestamp="1636917766248">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
     <state x="1238" y="310" width="627" height="852" key="find.popup/0.0.3440.1400/-1920.0.1536.824@0.0.3440.1400" timestamp="1636455297380" />
+    <state x="1238" y="310" width="832" height="854" key="find.popup/0.0.3440.1400@0.0.3440.1400" timestamp="1636917766248" />
+    <state x="699" y="424" width="1009" height="1470" key="search.everywhere.popup" timestamp="1637241555027">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="699" y="424" width="1009" height="1470" key="search.everywhere.popup/0.0.3440.1400/-1920.0.1536.824@0.0.3440.1400" timestamp="1637241555027" />
+    <state x="699" y="424" width="1009" height="1470" key="search.everywhere.popup/0.0.3440.1400@0.0.3440.1400" timestamp="1636918477002" />
   </component>
 </project>

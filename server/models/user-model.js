@@ -1,4 +1,5 @@
 var { Schema  , model} = require('mongoose');
+
 var UserSchema = new Schema({
   name: {
     type: String,
