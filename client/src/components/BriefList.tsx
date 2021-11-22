@@ -3,29 +3,33 @@ import BriefListItem from "./BriefListItem";
 import { Grid } from "@mui/material";
 import { useDispatch, useSelector } from "react-redux";
 import { useTypedSelector } from "../hooks/useTypedSelector";
-import { getUserAction } from "../store/reducers/userReducer";
-import Button from "@mui/material/Button";
+import { BriefAllRequestAction } from "../store/reducers/brief-reducer";
+import axios from "axios";
 
 const BriefList: React.FC = () => {
-  const { users, loading } = useTypedSelector((state) => state.user);
+  const { briefAll, isLoading, error } = useTypedSelector(
+    (state) => state.briefAllReducer
+  );
   const dispatch = useDispatch();
 
   useEffect(() => {});
   return (
     <Grid container spacing={3} direction="row">
       <button
-        onClick={() => {
-          dispatch(getUserAction());
+        onClick={async () => {
+          dispatch(BriefAllRequestAction());
         }}
       >
         Load
       </button>
-      {loading ? (
+      {isLoading ? (
         <span>Загрузка...</span>
+      ) : error ? (
+        <div>Error - {error}</div>
       ) : (
-        users?.map((user) => (
+        briefAll?.map((brief) => (
           // @ts-ignore
-          <div>{user.name}</div>
+          <div>{brief.title}</div>
         ))
       )}
       <BriefListItem />

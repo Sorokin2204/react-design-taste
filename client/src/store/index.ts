@@ -1,16 +1,19 @@
-import { applyMiddleware, createStore } from "redux";
-import thunk from "redux-thunk";
-import { rootReducer } from "./reducers";
+import { combineReducers, applyMiddleware, createStore } from "redux";
 import createSagaMiddleware from "redux-saga";
-import { usersWatcher } from "../saga/userSaga";
 import { composeWithDevTools } from "redux-devtools-extension";
-import { rootSaga } from "../saga";
+import { rootSaga } from "../saga/root-saga";
+import { briefAllReducer } from "./reducers/brief-reducer";
+import { briefAllWatcher } from "../saga/brief-saga";
 
-const sagaMiddleware = createSagaMiddleware();
+const saga = createSagaMiddleware();
 
-export const store = createStore(
+export const rootReducer = combineReducers({ briefAllReducer });
+
+export const rootStore = createStore(
   rootReducer,
-  composeWithDevTools(applyMiddleware(thunk, sagaMiddleware))
+  composeWithDevTools(applyMiddleware(saga))
 );
 
-sagaMiddleware.run(rootSaga);
+export type RootState = ReturnType<typeof rootReducer>;
+
+saga.run(briefAllWatcher);
