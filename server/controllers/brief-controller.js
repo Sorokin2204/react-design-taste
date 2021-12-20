@@ -28,6 +28,17 @@ class BriefController {
       next(e);
     }
   }
+
+  async passedBrief(req, res, next) {
+    try {
+      const briefId = req.params.id;
+      const passedUsers = await BriefService.passedBrief(briefId);
+      return res.json(passedUsers);
+    } catch (e) {
+      next(e);
+    }
+  }
+
   async editBrief(req, res, next) {}
   async deleteBrief(req, res, next) {}
 }

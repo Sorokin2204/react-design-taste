@@ -5,7 +5,11 @@ export enum BriefAllActionTypes {
 }
 
 export interface IBrief {
+  id: string;
   title: string;
+  countSteps: number;
+  countPassed: number;
+  slug: string;
 }
 
 export interface IBriefAllSuccessPayload {

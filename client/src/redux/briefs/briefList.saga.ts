@@ -1,22 +1,20 @@
 import { call, put, takeEvery, takeLatest, all } from "redux-saga/effects";
 import axios, { AxiosRequestConfig, AxiosResponse, ResponseType } from "axios";
-import { BriefAllActionTypes, IBrief } from "../types/brief-type";
+import { BriefAllActionTypes, IBrief } from "./briefList.type";
 import {
   BriefAllErrorAction,
   BriefAllSuccessAction,
-} from "../store/reducers/brief-reducer";
+} from "./briefList.reducer";
 
-const getBriefAll = () =>
-  axios.get("http://localhost:7000/api/brief/all/619174ee82475f0444d964c0");
+const getBriefAll = () => axios.get("http://localhost:3004/briefs");
 
 export function* getBriefAllWorker(): any {
   try {
     const response: AxiosResponse = yield call(getBriefAll);
     yield put(BriefAllSuccessAction({ briefAll: response.data }));
   } catch (e) {
-    // @ts-ignore
-    yield put(BriefAllErrorAction({ error: e.message }));
-
+    yield put(BriefAllErrorAction({ error: (e as Error).message }));
+  }
 }
 
 export function* briefAllWatcher() {

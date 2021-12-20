@@ -1,0 +1,145 @@
+{
+  "briefs": [
+    {
+      "id": "61a49a8493a908c7b2a8e8f5",
+      "title": "New brief 1",
+      "countSteps": 3,
+      "countPassed": 3,
+      "slug": "new-brief-1"
+    },
+    {
+      "id": "61a49a8a11a358650c11a695",
+      "title": "New brief 2",
+      "countSteps": 2,
+      "countPassed": 5,
+      "slug": "new-brief-2"
+    },
+    {
+      "id": "61a49a8f7ae6c0db8cc4076a",
+      "title": "New brief 3",
+      "countSteps": 9,
+      "countPassed": 1,
+      "slug": "new-brief-3"
+    },
+    {
+      "id": "61a49a945403e5db013479a7",
+      "title": "New brief 4",
+      "countSteps": 3,
+      "countPassed": 6,
+      "slug": "new-brief-4"
+    },
+    {
+      "id": "61a49a974b114ead8a59b94c",
+      "title": "New brief 5",
+      "countSteps": 4,
+      "countPassed": 1,
+      "slug": "new-brief-5"
+    }
+  ],
+  "passed": [
+    {
+      "id": "61a49b206771d86a12dc4e47",
+      "fullName": "Jack Johns",
+      "thumbnailImage": "https://mui.com/static/images/avatar/1.jpg",
+      "datePassed": "1552261496289",
+      "idBrief": "61a49a8493a908c7b2a8e8f5"
+    },
+    {
+      "id": "61a4b370122afe3be3831c3c",
+      "fullName": "Amile Nash",
+      "thumbnailImage": "https://mui.com/static/images/avatar/2.jpg",
+      "datePassed": "1552261496289",
+      "idBrief": "61a49a8493a908c7b2a8e8f5"
+    },
+    {
+      "id": "61a4b373792a71e85649d413",
+      "fullName": "Aleks Lenko",
+      "thumbnailImage": "https://mui.com/static/images/avatar/3.jpg",
+      "datePassed": "1552261496289",
+      "idBrief": "61a49a8493a908c7b2a8e8f5"
+    }
+  ],
+  "brief": [
+    {
+      "id": "61a49a8493a908c7b2a8e8f5",
+      "title": "New brief 1",
+      "slug": "new-brief-1",
+      "tasks": [
+        {
+          "id": "61b72b259e0f22644e26faf5",
+          "type": "single-question",
+          "question": "Choice better design",
+          "slides": [
+            {
+              "id": "61b72b6409c066e031a5bb34",
+              "thumbnailImage": "https://picsum.photos/seed/p1/300/200",
+              "fullImage": "https://picsum.photos/seed/p1/1920/3080"
+            },
+            {
+              "id": "61b72b61ed9c5caee8156579",
+              "thumbnailImage": "https://picsum.photos/seed/p2/300/200",
+              "fullImage": "https://picsum.photos/seed/p2/1920/3080"
+            },
+            {
+              "id": "61b72b37371f2bfee4bd22ee",
+              "thumbnailImage": "https://picsum.photos/seed/p3/300/200",
+              "fullImage": "https://picsum.photos/seed/p3/1920/3080"
+            }
+          ]
+
+        },
+        {
+          "id": "61b72b37371f2bfee4bd22ee",
+          "type": "single-question",
+          "question": "Better design",
+          "slides": [
+            {
+              "id": "61b72b5cdf594ba2d72cc959",
+              "thumbnailImage": "https://picsum.photos/seed/p3/300/200?random=2"
+            },
+            {
+              "id": "61b72b59f4b0b0811fbecf52",
+              "thumbnailImage": "https://picsum.photos/seed/p3/300/200?random=4"
+            }
+          ]
+
+        }, {
+          "id": "61b72b3b96a37dcca6a4bdf9",
+          "type": "single-question",
+          "question": "Select UI",
+          "slides": [
+            {
+              "id": "61b72b56c10f7fc78c01d403",
+              "thumbnailImage": "https://picsum.photos/300/200?random=3"
+            },
+            {
+              "id": "61b72b53dfc297392aa07c10",
+              "thumbnailImage": "https://picsum.photos/300/200?random=4"
+            }
+          ]
+
+        }, {
+          "id": "61b72b40e27bbb50eb469390",
+          "type": "single-question",
+          "question": "What is better ?",
+          "slides": [
+            {
+              "id": "61b72b4d1b13108acb6641a7",
+              "thumbnailImage": "https://picsum.photos/300/200?random=4"
+            },
+            {
+              "id": "61b72b4a6b9203c7f7b3f291",
+              "thumbnailImage": "https://picsum.photos/300/200?random=5"
+            },
+            {
+              "id": "61b72b47a570ba274cabc954",
+              "thumbnailImage": "https://picsum.photos/300/200?random=6"
+            }
+          ]
+
+        }
+      ]
+    }
+  ]
+
+}

@@ -1,0 +1,9 @@
+.slideList {
+  //position: relative;
+}
+.slideHover {
+  & div {
+    opacity: 1 !important;
+    visibility: visible !important;
+  }
+}

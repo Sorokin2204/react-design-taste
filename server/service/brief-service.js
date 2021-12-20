@@ -1,9 +1,39 @@
 const ApiError = require("../exceptions/api-error");
 const UserModel = require("../models/user-model");
 const BriefModel = require("../models/brief-model");
+const PassingBriefModel = require("../models/passingBrief-model");
 
 class BriefService {
   async getBriefs(userId) {
+    // const brief = await BriefModel.findOne({ title: "New brief" });
+    const brief2 = await BriefModel.findOne({ title: "New brief 1" });
+    // const user1 = await UserModel.findOne({
+    //   email: "daniil.sorokin.228888@gmail.com",
+    // });
+    // const user2 = await UserModel.findOne({
+    //   email: "daniil.sorokin.22888@gmail.com",
+    // });
+    const user3 = await UserModel.findOne({
+      email: "daniil.sorokin.2288@gmail.com",
+    });
+    //
+    // const newPassing = new PassingBriefModel({
+    //   User: user1._id,
+    //   Brief: brief._id,
+    // });
+    // const newPassing2 = new PassingBriefModel({
+    //   User: user2._id,
+    //   Brief: brief._id,
+    // });
+    const newPassing3 = new PassingBriefModel({
+      User: user3._id,
+      Brief: brief2._id,
+    });
+    //
+    // await newPassing.save();
+    // await newPassing2.save();
+    await newPassing3.save();
+
     const user = await UserModel.findById(userId);
     if (!user) {
       throw ApiError.BadRequest("Такого пользователя не существует");
@@ -14,6 +44,7 @@ class BriefService {
     }
     return briefs;
   }
+
   async getBrief(userId) {}
   async addBrief(title, userId) {
     const existBrief = await BriefModel.findOne({ title });
@@ -31,6 +62,29 @@ class BriefService {
     return newBrief;
   }
   async editBrief(req, res, next) {}
+
+  async passedBrief(briefId) {
+    const existBrief = await BriefModel.findById(briefId);
+    if (!existBrief) {
+      throw ApiError.BadRequest("Такого брифа не существует");
+    }
+
+    const existsPassing = await PassingBriefModel.find({
+      Brief: existBrief._id,
+    }).select("-_id User");
+
+    if (existsPassing.length == 0) {
+      throw ApiError.BadRequest("Результатов по этому брифу не найдено");
+    }
+
+    const passedUsersIds = existsPassing.map((el) => el.User);
+
+    const passedUsers = await UserModel.find({
+      _id: { $in: passedUsersIds },
+    }).select("email");
+
+    return passedUsers;
+  }
   async deleteBrief(req, res, next) {}
 }
 

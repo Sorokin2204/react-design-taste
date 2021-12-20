@@ -7,7 +7,7 @@ import {
   IBriefAllSuccess,
   IBriefAllSuccessPayload,
   IBriefState,
-} from "../../types/brief-type";
+} from "./briefList.type";
 
 const initialBriefState: IBriefState = {
   briefAll: [],

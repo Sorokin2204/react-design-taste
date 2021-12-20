@@ -21,6 +21,9 @@
   <component name="ChangeListManager">
     <list default="true" id="0cd7907a-29ae-4f9e-9ba3-fca1d12b979d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/controllers/brief-controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/controllers/brief-controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/router/brief-router.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/router/brief-router.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/service/brief-service.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/service/brief-service.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,9 +33,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript JSX File" />
         <option value="TypeScript File" />
         <option value="JavaScript File" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
@@ -50,6 +53,7 @@
     <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
@@ -58,7 +62,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/client/src/redux" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.stylelint" value="true" />
@@ -72,14 +76,21 @@
     <property name="prettier.files.pattern" value="{**/*,*}.{js,ts,jsx,tsx,scss,css}" />
     <property name="prettierjs.PrettierConfiguration.NodeInterpreter" value="$PROJECT_DIR$/../../../../../Program Files/nodejs/node" />
     <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\niga_\AppData\Roaming\npm\node_modules\prettier" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="run.prettier.on.save" value="true" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
+    <property name="settings.editor.selected.configurable" value="reference.idesettings.emmet.css" />
     <property name="ts.external.directory.path" value="C:\Users\niga_\Desktop\web-projects\react-design-taste\client\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\niga_\Desktop\web-projects\react-design-taste\client\src\redux" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\niga_\Desktop\web-projects\react-design-taste\client\src\saga" />
-      <recent name="C:\Users\niga_\Desktop\web-projects\react-design-taste\client\src\store" />
+      <recent name="C:\Users\niga_\Desktop\web-projects\react-design-taste\client\public\image" />
+      <recent name="C:\Users\niga_\Desktop\web-projects\react-design-taste\client\src\components\Slide" />
+      <recent name="C:\Users\niga_\Desktop\web-projects\react-design-taste\client\src\components\Brief" />
+      <recent name="C:\Users\niga_\Desktop\web-projects\react-design-taste\client\src" />
+      <recent name="C:\Users\niga_\Desktop\web-projects\react-design-taste\client\src\redux" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -112,7 +123,13 @@
       <workItem from="1637079794106" duration="461000" />
       <workItem from="1637080279040" duration="45686000" />
       <workItem from="1637310481602" duration="28881000" />
-      <workItem from="1637489693394" duration="13045000" />
+      <workItem from="1637489693394" duration="53940000" />
+      <workItem from="1637915891314" duration="9579000" />
+      <workItem from="1638033558433" duration="43578000" />
+      <workItem from="1638466145684" duration="166289000" />
+      <workItem from="1639488236694" duration="2922000" />
+      <workItem from="1639492826658" duration="73615000" />
+      <workItem from="1639821107940" duration="36291000" />
     </task>
     <servers />
   </component>
@@ -132,34 +149,68 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="438" y="374" key="#com.intellij.codeInsight.template.impl.EditVariableDialog" timestamp="1637833620467">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="438" y="374" key="#com.intellij.codeInsight.template.impl.EditVariableDialog/0.0.3440.1400/-1920.0.1536.824@0.0.3440.1400" timestamp="1637833620467" />
     <state x="307" y="201" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1636824528675">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
     <state x="307" y="201" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.3440.1400/3440.0.1920.1040@0.0.3440.1400" timestamp="1636824528675" />
-    <state x="459" y="325" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1637063149499">
+    <state x="1365" y="448" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1637777558139">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
+    <state x="1365" y="448" key="#com.intellij.fileTypes.FileTypeChooser/0.0.3440.1400/-1920.0.1536.824@0.0.3440.1400" timestamp="1637777558139" />
+    <state x="470" y="464" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1637587104537">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="470" y="464" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.3440.1400@0.0.3440.1400" timestamp="1637587104537" />
+    <state x="459" y="325" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1639395324475">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="459" y="325" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.3440.1400/-1920.0.1536.824@0.0.3440.1400" timestamp="1639395324475" />
     <state x="459" y="325" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.3440.1400@0.0.3440.1400" timestamp="1637063149499" />
-    <state x="697" y="324" key="FileChooserDialogImpl" timestamp="1637488656130">
+    <state x="532" y="459" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1638448516556">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="532" y="459" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.3440.1400/-1920.0.1536.824@0.0.3440.1400" timestamp="1638448516556" />
+    <state x="420" y="369" key="EditFileWatcherDialog" timestamp="1638704578433">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="420" y="369" key="EditFileWatcherDialog/0.0.3440.1400/-1920.0.1536.824@0.0.3440.1400" timestamp="1638704578433" />
+    <state x="697" y="324" key="FileChooserDialogImpl" timestamp="1637587098466">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
     <state x="697" y="324" key="FileChooserDialogImpl/0.0.3440.1400/-1920.0.1536.824@0.0.3440.1400" timestamp="1637488656130" />
     <state x="697" y="324" key="FileChooserDialogImpl/0.0.3440.1400/3440.0.1920.1040@0.0.3440.1400" timestamp="1636824580852" />
-    <state x="639" y="56" width="2239" height="1262" key="SettingsEditor" timestamp="1637408180239">
+    <state x="697" y="324" key="FileChooserDialogImpl/0.0.3440.1400@0.0.3440.1400" timestamp="1637587098466" />
+    <state x="363" y="344" key="Performance.Activity.Monitor" timestamp="1638267181170">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state x="277" y="138" width="1366" height="1058" key="SettingsEditor/0.0.3440.1400/-1920.0.1536.824@0.0.3440.1400" timestamp="1637241532099" />
+    <state x="363" y="344" key="Performance.Activity.Monitor/0.0.3440.1400/-1920.0.1536.824@0.0.3440.1400" timestamp="1638267181170" />
+    <state x="639" y="56" width="1734" height="1400" key="SettingsEditor" timestamp="1639987915197">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="-7" y="0" width="1734" height="1400" key="SettingsEditor/0.0.3440.1400/-1920.0.1536.824@0.0.3440.1400" timestamp="1639935273015" />
     <state x="282" y="160" key="SettingsEditor/0.0.3440.1400/3440.0.1920.1040@0.0.3440.1400" timestamp="1636825118577" />
-    <state x="639" y="56" width="2239" height="1262" key="SettingsEditor/0.0.3440.1400@0.0.3440.1400" timestamp="1637408180239" />
-    <state x="1238" y="310" width="832" height="854" key="find.popup" timestamp="1636917766248">
+    <state x="639" y="56" width="2239" height="1262" key="SettingsEditor/0.0.3440.1400@0.0.3440.1400" timestamp="1639987915197" />
+    <state x="576" y="568" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1637778173478">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state x="1238" y="310" width="627" height="852" key="find.popup/0.0.3440.1400/-1920.0.1536.824@0.0.3440.1400" timestamp="1636455297380" />
+    <state x="576" y="568" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.3440.1400/-1920.0.1536.824@0.0.3440.1400" timestamp="1637778173478" />
+    <state x="1238" y="310" width="832" height="854" key="find.popup" timestamp="1640002324340">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="1238" y="310" width="832" height="854" key="find.popup/0.0.3440.1400/-1920.0.1536.824@0.0.3440.1400" timestamp="1640002324340" />
     <state x="1238" y="310" width="832" height="854" key="find.popup/0.0.3440.1400@0.0.3440.1400" timestamp="1636917766248" />
-    <state x="699" y="424" width="1009" height="1470" key="search.everywhere.popup" timestamp="1637241555027">
+    <state x="1208" y="322" key="run.anything.popup" timestamp="1639651348531">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state x="699" y="424" width="1009" height="1470" key="search.everywhere.popup/0.0.3440.1400/-1920.0.1536.824@0.0.3440.1400" timestamp="1637241555027" />
-    <state x="699" y="424" width="1009" height="1470" key="search.everywhere.popup/0.0.3440.1400@0.0.3440.1400" timestamp="1636918477002" />
+    <state x="1208" y="322" key="run.anything.popup/0.0.3440.1400/-1920.0.1536.824@0.0.3440.1400" timestamp="1639651348531" />
+    <state x="699" y="424" width="1009" height="1470" key="search.everywhere.popup" timestamp="1638983558372">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="699" y="424" width="1009" height="1470" key="search.everywhere.popup/0.0.3440.1400/-1920.0.1536.824@0.0.3440.1400" timestamp="1638983558372" />
+    <state x="699" y="424" width="1009" height="1470" key="search.everywhere.popup/0.0.3440.1400@0.0.3440.1400" timestamp="1637585318927" />
   </component>
 </project>

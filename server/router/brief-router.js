@@ -4,6 +4,7 @@ const { body } = require("express-validator");
 const router = new Router();
 
 router.get("/all/:id", briefController.getBriefs);
+router.get("/passed/:id", briefController.passedBrief);
 router.get("/:id", briefController.getBrief);
 router.post(
   "/add/:id",
